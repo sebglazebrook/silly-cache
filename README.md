@@ -55,7 +55,14 @@ my_second_custom_rule:
     - body:
       - /foo/
       - !/bar/
+  ttl: 4 hours
 ```
+
+When given a collection of rules you can define how you want to cache certain request.
+
+The global settings define general behaviour and then you can be really specific about certain requests by defining rules for them.
+
+Rules define the caching behaviour but do not determine whether a request is proxied or not.
 
 ### HTTP Standards
 
