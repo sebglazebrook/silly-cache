@@ -68,3 +68,17 @@ Rules define the caching behaviour but do not determine whether a request is pro
 
 TODO
 
+## TODO
+
+- [ ] Get a basic proxy working without cache with no configuration (everything hardcoded).
+- [ ] Allow the listening port to be configured.
+- [ ] Allow the backend server to be configured.
+- [ ] Enable HTTP standard caching.
+- [ ] Make HTTP standard caching the default but able to be disabled.
+- [ ] Allow rules to be set via yaml. Initially just global rules that override/replace command line args.
+- [ ] Allow custom rules to configure paths.
+- [ ] Allow custom rules to configure request methods.
+- [ ] Allow custom rules to configure header matching.
+- [ ] Allow custom rules to configure body matching.
+- [ ] Allow custom rules to configure NOT matching (path, header, body). 
+- [ ] Allow custom rules to configure cache TTLs. 
