@@ -43,7 +43,7 @@ my_first_custom_rule:
     - request_methods:
       - GET
     - header:
-      - /requests-that-have-at-least-one-header-that-passes-this-regex-can-be-cached/
+      - /requests-that-have-at-least-one-header-that-matches-this-regex-will-be-cached/
 
 my_second_custom_rule:
   http_standards: false
