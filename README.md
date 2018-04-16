@@ -3,7 +3,7 @@
 A caching reverse proxy that:
 
 - is silly simple to use
-- allows you to do silly things
+- allows you to do silly things, like not follow HTTP caching standards.
 
 ## Usage
 
@@ -66,7 +66,7 @@ Rules define the caching behaviour but do not determine whether a request is pro
 
 ### HTTP Standards
 
-TODO
+When http standard caching is enable (which it is be default) caching will follow the standards outlined here: https://tools.ietf.org/html/rfc7234
 
 ## TODO
 
