@@ -1,9 +1,6 @@
 # Silly Cache
 
-A caching reverse proxy that:
-
-- is silly simple to use
-- allows you to do silly things, like not follow HTTP caching standards.
+A caching reverse proxy that allows you to do silly things, like not follow HTTP caching standards.
 
 ## Usage
 
