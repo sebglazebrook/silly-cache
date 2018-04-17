@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  appserver:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - 6969:6969
+    command: bundle exec rackup --host 0.0.0.0 --port 6969
