@@ -67,7 +67,7 @@ When http standard caching is enable (which it is be default) caching will follo
 
 ## TODO
 
-- [ ] Get a basic proxy working without cache with no configuration (everything hardcoded).
+- [x] Get a basic proxy working without cache with no configuration (everything hardcoded).
 - [ ] Allow the listening port to be configured.
 - [ ] Allow the backend server to be configured.
 - [ ] Enable HTTP standard caching.
