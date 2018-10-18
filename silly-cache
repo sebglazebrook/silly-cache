@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "Listening on port 6969"
+
+ncat --listen 6969 -e ./handle-request --keep-open
